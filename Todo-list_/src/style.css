@@ -28,6 +28,10 @@ body{
     border-radius: none;
     cursor: pointer;
 }
+.Todo-Button:hover{
+    color: white;
+    background-color: black;
+}
 .text{
     margin: 10px;
 }

@@ -1,7 +1,7 @@
 import React from "react";
 
-const App = () => {
-    return <h1 className="Header-container">Todo list </h1>
+const App = (props) => {
+    return <h1 className="Header-container">{props.Header}</h1>
 }
 
 

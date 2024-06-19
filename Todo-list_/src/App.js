@@ -10,12 +10,12 @@ const app = () => {
 
   return (
     <div className="todo-container">
-      <App />
-      <Todolist />
-      <Todolist />
-      <Todolist />
-      <Todolist />
-      <Todolist />
+      <App Header="Todo app" />
+      <Todolist text="Eat" />
+      <Todolist completed="true" text="Code" />
+      <Todolist text="Repeat" />
+      <Todolist text="Sleep" />
+      <Todolist text="Gym" />
       <Button />
     </div>
 

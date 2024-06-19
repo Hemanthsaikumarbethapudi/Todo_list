@@ -1,17 +1,16 @@
 import React from "react";
 
-const Todolist = () => {
+const Todolist = (props) => {
     return (
         <li className="Todolist">
             <span>
 
-                <input type="checkbox"></input>
-                <span className="text">Eat</span>
+
+                {props.completed ? <></> : <input type="checkbox"></input>}
+                <span className="text">{props.text}</span>
 
             </span>
-
             <p>.....</p>
-
         </li>
     );
 };
