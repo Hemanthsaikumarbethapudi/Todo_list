@@ -5,8 +5,7 @@ const Todolist = (props) => {
         <li className="Todolist">
             <span>
 
-
-                {props.completed ? <></> : <input type="checkbox"></input>}
+                {props.completed ? <></> : <input type="checkbox" />}
                 <span className="text">{props.text}</span>
 
             </span>

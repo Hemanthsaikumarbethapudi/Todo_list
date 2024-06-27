@@ -10,9 +10,9 @@ const app = () => {
 
   return (
     <div className="todo-container">
-      <App Header="Todo app" />
+      <App Header="Todo list" />
       <Todolist text="Eat" />
-      <Todolist completed="true" text="Code" />
+      <Todolist text="Code" />
       <Todolist text="Repeat" />
       <Todolist text="Sleep" />
       <Todolist text="Gym" />
